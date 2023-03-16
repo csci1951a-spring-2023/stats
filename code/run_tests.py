@@ -62,7 +62,10 @@ def scenario_two():
     """
     # TODO: Use the given data and construct any necessary variables to make the call to the right
     # function in stats_tests.py (Note: another variable may not be required!)
-    
+    data = {'Brand_A': [12,14,13,11,12,12,11,14,17,10],
+            'Brand_B': [10,10,10,12,18,18,19,12,11,10]
+            }
+    df = pd.DataFrame(data)
    
     # TODO: Return tstats and pvalue
 
@@ -82,7 +85,9 @@ def scenario_three():
     """
     # TODO: Use the given data and construct any  necessary variables to make the call to the right
     # function in stats_tests.py (Note: another variable may not be required!)
-
+    df = pd.DataFrame({'Exposed' : ['Exposed'] * 15 + ['Exposed'] * 7 + ['Unexposed'] * 5 + ['Unexposed'] * 20,
+                   'Disease' : ['Yes']*15 + ['No'] * 7 + ['Yes']*5 + ['No'] * 20 
+                  })
    
     # TODO: Return tstats and pvalue
     
@@ -104,7 +109,13 @@ def scenario_four():
     # TODO: Construct the necessary variables to make the call to the right
     # function in stats_tests.py (Note: another variable may not be required!)
 
-    
+    data = {'2010': [110, 115, 150, 120, 99, 132, 182, 183, 89, 91],
+            '2011': [84, 88, 88, 89, 90, 90, 91, 90, 90, 90]
+            }
+    df = pd.DataFrame(data)
+
+    before = df['2010']
+    after = df['2011']
     # TODO: Return tstats and pvalue
 
 
