@@ -28,7 +28,6 @@ def scenario_one():
         - tstats: Test statistics (float)
         - p-value: P-value (float)
     """
-    #=#=#=#=#=#=#=#=#=# Solution: one sample t-test #=#=#=#=#=#=#=#=#=#
     
     # Here is the parsed data for this scenario!
     data = [150]*35 + [135]*25 + [160]*40 + [None]*5
@@ -61,7 +60,6 @@ def scenario_two():
         - tstats: Test statistics (float)
         - p-value: P-value (float)
     """
-    #=#=#=#=#=#=#=#=#=# Solution: two sample t-test #=#=#=#=#=#=#=#=#=#
     # TODO: Use the given data and construct any necessary variables to make the call to the right
     # function in stats_tests.py (Note: another variable may not be required!)
     
@@ -82,7 +80,6 @@ def scenario_three():
         - tstats: Test statistics (float)
         - p-value: P-value (float)
     """
-    #=#=#=#=#=#=#=#=#=# Solution: chi-squared #=#=#=#=#=#=#=#=#=#
     # TODO: Use the given data and construct any  necessary variables to make the call to the right
     # function in stats_tests.py (Note: another variable may not be required!)
 
@@ -104,7 +101,6 @@ def scenario_four():
         - tstats: Test statistics (float)
         - p-value: P-value (float)
     """
-    #=#=#=#=#=#=#=#=#=# Solution: paired t-test #=#=#=#=#=#=#=#=#=#
     # TODO: Construct the necessary variables to make the call to the right
     # function in stats_tests.py (Note: another variable may not be required!)
 
