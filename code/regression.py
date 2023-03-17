@@ -23,6 +23,8 @@ def regression(X, Y):
         - rsquared_val: the r-squared value of the model (trained on the training
                     data), evaluated on the testing dataset (float)
     """
+    # NOTE: You'll find the train_test_split function from the util.py file to be helpful!
+
     # TODO: Using statsmodel, fit a linear regression model to the training dataset
     
 
