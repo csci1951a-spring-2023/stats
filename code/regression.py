@@ -12,10 +12,10 @@ def regression(X, Y):
     Implement Linear Regression using StatsModel.
 
     inputs:
-        - train_df: a Pandas DataFrame, containing all the training samples
-        - test_df: a Pandas DataFrame, containing all the testing samples
+        - X: a numpy array containing all the X values
+        - Y: a numpy array containing all the Y values
     
-    outpus:
+    outputs:
         - mse_train: the mean-squared error of the model (trained on the training
                     data), evaluated on the training dataset (float)
         - mse_test: the mean-squared error of the model (trained on the training
